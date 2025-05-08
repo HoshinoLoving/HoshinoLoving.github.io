@@ -1,0 +1,17 @@
+(()=>{(()=>{let l=`
+  <div class="code-figcaption">
+    <div class="code-left-wrap">
+      <div class="code-decoration"></div>
+      <div class="code-lang"></div>
+    </div>
+    <div class="code-right-wrap">
+      <div class="code-copy icon-copy"></div>
+      <div class="icon-chevron-down code-expand"></div>
+    </div>
+  </div>
+  <div class="code-figcaption-bottom">
+    <span class="code-name"></span>
+    <a class="code-link"></a>
+  </div>`,n=(window.siteConfig?.code_block||{}).expand;if(_$$("div.highlight").forEach(t=>{t.querySelector(".code-figcaption")||t.insertAdjacentHTML("afterbegin",l),n!==void 0&&(n===!1||typeof n=="number"&&t.querySelectorAll("code[data-lang] .line").length>n)&&t.classList.add("code-closed");let e=t.querySelector(".code-figcaption-bottom"),i=t.getAttribute("name"),c=t.querySelector(".code-name");i?c.innerText=i:c.innerText="";let o=t.getAttribute("url"),s=t.getAttribute("link_text"),a=t.querySelector(".code-link");o?(a.setAttribute("href",o),a.innerText=s||o,e.classList.add("has-link")):(a.setAttribute("href",""),a.innerText="",e.classList.remove("has-link")),i||o?e.style.marginBottom="0.5em":e.style.marginBottom="0"}),_$$(".code-expand").forEach(t=>{t.off("click").on("click",()=>{let e=t.closest("div.highlight");e.classList.contains("code-closed")?e.classList.remove("code-closed"):e.classList.add("code-closed")})}),_$$("div.highlight").forEach(t=>{let e;if(t.querySelector("table")?e=t.querySelector("tr td:last-of-type code"):e=t.querySelector("code"),!e)return;let i=e.dataset.lang;if(!i)return;let c=i.replace("line-numbers","").trim().replace("language-","").trim().toUpperCase(),o=e.closest(".highlight");if(o){let s=o.querySelector(".code-lang");s&&(s.innerText=c)}}),!window.ClipboardJS)return;let r=new ClipboardJS(".code-copy",{text:t=>{let e=window.getSelection(),i=document.createRange(),c=t.parentNode.parentNode.parentNode.querySelector("tr td:last-of-type");c||(c=t.parentNode.parentNode.parentNode.querySelector("code")),i.selectNodeContents(c),e.removeAllRanges(),e.addRange(i);let o=e.toString();return window.siteConfig.clipboard.copyright?.enable&&o.length>=window.siteConfig.clipboard.copyright?.count&&(o=o+`
+
+`+window.siteConfig.clipboard.copyright?.content||""),o}});r.on("success",t=>{t.trigger.classList.add("icon-check"),t.trigger.classList.remove("icon-copy");let e=window.siteConfig.clipboard.success,i="Copy successfully (*^\u25BD^*)";if(typeof e=="string")i=e;else if(typeof e=="object"){let c=document.documentElement.lang,o=Object.keys(e).find(s=>s.toLowerCase()===c.toLowerCase());o&&e[o]&&(i=e[o])}_$("#copy-tooltip").innerText=i,_$("#copy-tooltip").style.opacity="1",setTimeout(()=>{_$("#copy-tooltip").style.opacity="0",t.trigger.classList.add("icon-copy"),t.trigger.classList.remove("icon-check")},1e3),t.clearSelection()}),r.on("error",t=>{t.trigger.classList.add("icon-times"),t.trigger.classList.remove("icon-copy");let e=window.siteConfig.clipboard.fail,i="Copy failed (\uFF9F\u22BF\uFF9F)\uFF82";if(typeof e=="string")i=e;else if(typeof e=="object"){let c=document.documentElement.lang,o=Object.keys(e).find(s=>s.toLowerCase()===c.toLowerCase());o&&e[o]&&(i=e[o])}_$("#copy-tooltip").innerText=i,_$("#copy-tooltip").style.opacity="1",setTimeout(()=>{_$("#copy-tooltip").style.opacity="0",t.trigger.classList.add("icon-copy"),t.trigger.classList.remove("icon-times")},1e3)}),window.Pjax&&window.addEventListener("pjax:send",()=>{r.destroy()},{once:!0})})();})();
