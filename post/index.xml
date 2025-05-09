@@ -7,12 +7,12 @@
     <generator>Hugo</generator>
     <language>zh-cn</language>
     
-    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
-    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    <managingEditor>moterud011@gmail.com (Hoshino)</managingEditor>
+    <webMaster>moterud011@gmail.com (Hoshino)</webMaster>
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Thu, 08 May 2025 22:46:38 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jun 2022 20:12:52 +0800</lastBuildDate>
     
     
     <atom:link href="https://hoshinoloving.github.io/post/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,40 +22,19 @@
     
 
     <item>
-      <title>25 ICPC Wuhan Invitational</title>
-      <link>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</link>
-      <pubDate>Thu, 08 May 2025 22:46:38 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
-      <guid>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</guid>
-      <description>
-        <![CDATA[<h1>25 ICPC Wuhan Invitational</h1><p>作者：D-Sketon（xxx@example.com）</p>
-        
-          <blockquote>
-<p>I wanna win</p></blockquote>
-<p>你好吗</p>
-<p><img src="/image/COA8-1.jpg" alt="描述文字"></p>
-        
-        <hr><p>本文2025-05-08首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2025-05-08</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
       <title>中文測試</title>
       <link>https://hoshinoloving.github.io/post/chinese/</link>
       <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
+      <author>moterud011@gmail.com (Hoshino)</author>
       <guid>https://hoshinoloving.github.io/post/chinese/</guid>
       <description>
-        <![CDATA[<h1>中文測試</h1><p>作者：D-Sketon（xxx@example.com）</p>
+        <![CDATA[<h1>中文測試</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
         
           <p>This is a Chinese test post.</p>
 <p>善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。</p>
 <p>以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？</p>
         
-        <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
+        <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-10</p>]]>
       </description>
       
     </item>
@@ -66,10 +45,10 @@
       <title>Markdown Basic Elements</title>
       <link>https://hoshinoloving.github.io/post/main/</link>
       <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
+      <author>moterud011@gmail.com (Hoshino)</author>
       <guid>https://hoshinoloving.github.io/post/main/</guid>
       <description>
-        <![CDATA[<h1>Markdown Basic Elements</h1><p>作者：D-Sketon（xxx@example.com）</p>
+        <![CDATA[<h1>Markdown Basic Elements</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
         
           <h2 id="markdown-基本元素">
 <a class="header-anchor" href="#markdown-%e5%9f%ba%e6%9c%ac%e5%85%83%e7%b4%a0"></a>
@@ -129,6 +108,69 @@ Unordered List (ul)
 <a class="header-anchor" href="#%e6%ae%b5%e8%90%bd"></a>
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <!-- raw HTML omitted -->Underline text<!-- raw HTML omitted --> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
+        
+        <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
+      </description>
+      
+        <category>test</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>2025 ICPC 武汉邀请赛游记</title>
+      <link>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</link>
+      <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
+      <author>moterud011@gmail.com (Hoshino)</author>
+      <guid>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</guid>
+      <description>
+        <![CDATA[<h1>2025 ICPC 武汉邀请赛游记</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
+        
+          <blockquote>
+<p>I wanna win</p></blockquote>
+<p>你好吗</p>
+<p><img src="/image/COA8/1.jpg" alt="描述文字"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="margin: 10px 0 20px 0;">
+    <div style="position:relative; padding-bottom:56.25%; width:100%; height:0">
+        <iframe src="//player.bilibili.com/player.html?bvid=BV1YdVAzUEGK&page=1" scrolling="no" border="0"
+            frameborder="no" framespacing="0" allowfullscreen="true"
+            style="position:absolute; height: 100%; width: 100%;">
+        </iframe>
+    </div>
+</div>
         
         <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
       </description>
