@@ -12,12 +12,39 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Fri, 10 Jun 2022 20:12:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 20:00:00 +0800</lastBuildDate>
     
     
     <atom:link href="https://hoshinoloving.github.io/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>2025 ICPC 武汉邀请赛游记</title>
+      <link>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</link>
+      <pubDate>Fri, 09 May 2025 20:00:00 &#43;0800</pubDate>
+      <author>moterud011@gmail.com (Hoshino)</author>
+      <guid>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</guid>
+      <description>
+        <![CDATA[<h1>2025 ICPC 武汉邀请赛游记</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
+        
+          <blockquote>
+<p>我知道你 不害怕遗憾 只怕被遗忘<br>
+就算跌落深渊万丈<br>
+也要抬起头 夹缝中仰望<br>
+触碰那驯服夜的光<br>
+要走进黑暗 才能看到光<br>
+才能还原所有真相<br>
+将灰烬里黯淡 瞳孔 再次 点亮</p>
+        
+        <hr><p>本文2025-05-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2025-05-09</p>]]>
+      </description>
+      
+        <category>游记</category>
+      
+    </item>
     
     
 
@@ -36,6 +63,69 @@
         
         <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-10</p>]]>
       </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>test</title>
+      <link>https://hoshinoloving.github.io/post/test/</link>
+      <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
+      <author>moterud011@gmail.com (Hoshino)</author>
+      <guid>https://hoshinoloving.github.io/post/test/</guid>
+      <description>
+        <![CDATA[<h1>test</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
+        
+          <blockquote>
+<p>I wanna win</p></blockquote>
+<p>你好吗</p>
+<p><img src="/image/COA8/1.jpg" alt="描述文字"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="margin: 10px 0 20px 0;">
+    <div style="position:relative; padding-bottom:56.25%; width:100%; height:0">
+        <iframe src="//player.bilibili.com/player.html?bvid=BV1YdVAzUEGK&page=1" scrolling="no" border="0"
+            frameborder="no" framespacing="0" allowfullscreen="true"
+            style="position:absolute; height: 100%; width: 100%;">
+        </iframe>
+    </div>
+</div>
+        
+        <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
+      </description>
+      
+        <category>test</category>
       
     </item>
     
@@ -108,69 +198,6 @@ Unordered List (ul)
 <a class="header-anchor" href="#%e6%ae%b5%e8%90%bd"></a>
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <!-- raw HTML omitted -->Underline text<!-- raw HTML omitted --> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
-        
-        <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
-      </description>
-      
-        <category>test</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>2025 ICPC 武汉邀请赛游记</title>
-      <link>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</link>
-      <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
-      <author>moterud011@gmail.com (Hoshino)</author>
-      <guid>https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/</guid>
-      <description>
-        <![CDATA[<h1>2025 ICPC 武汉邀请赛游记</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
-        
-          <blockquote>
-<p>I wanna win</p></blockquote>
-<p>你好吗</p>
-<p><img src="/image/COA8/1.jpg" alt="描述文字"></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="margin: 10px 0 20px 0;">
-    <div style="position:relative; padding-bottom:56.25%; width:100%; height:0">
-        <iframe src="//player.bilibili.com/player.html?bvid=BV1YdVAzUEGK&page=1" scrolling="no" border="0"
-            frameborder="no" framespacing="0" allowfullscreen="true"
-            style="position:absolute; height: 100%; width: 100%;">
-        </iframe>
-    </div>
-</div>
         
         <hr><p>本文2022-06-09首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2022-06-09</p>]]>
       </description>

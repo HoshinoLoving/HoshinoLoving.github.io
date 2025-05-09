@@ -1,14 +1,20 @@
 [
   {
-    "objectID": "1654776772",
+    "objectID": "1746792000",
     "permalink": "/post/25-icpc-wuhan-invitational/",
-    "title": "2025 ICPC 武汉邀请赛游记","content": " I wanna win\n你好吗\n","date": "2022-06-09 20:12:52",
-    "updated": "2022-06-09 20:12:52"
+    "title": "2025 ICPC 武汉邀请赛游记","content": " 我知道你 不害怕遗憾 只怕被遗忘\n就算跌落深渊万丈\n也要抬起头 夹缝中仰望\n触碰那驯服夜的光\n要走进黑暗 才能看到光\n才能还原所有真相\n将灰烬里黯淡 瞳孔 再次 点亮\n总算有时间把这篇游记写出来了，说实话这一路上很多艰辛，最后总算是不负期待吧。\nDay -∞ 赛前准备\r因为京津冀地区蓝桥杯延期，慎重考虑之后决定两个队友留在学校打完蓝桥杯再走，自己先去武汉准备一下蓝桥杯。\n（但真的要准备吗？其实大概只是不想在运动会被大太阳晒，不过我要是第二天走也很难办，没人参加热身赛，而且到的也会很晚）\n事后证明，得亏提前一天走了去试了一下机器，否则当场会出大问题，不过当场也确实出了问题。\nDay -1 前往武汉\r被出租车偷袭\r早上六点半就起床了，六点五十到路边打车，但是不知道发生了什么一直到七点二十才打到车，此时距离我的火车只剩下13分钟，随改签。\n原本的行程：\nG1704 秦皇岛站 到 天津站 $07:33$ ~ $08:53$ 天津地铁$2$号线 天津站 到 天津滨海国际机场 用时约 $46$ 分钟，大约 $9:40$ 到 $MU2484$ 天津滨海国际机场 到 武汉天河国际机场 $11:00$ ~ $13:15$ 改签完后发现自己的列车到天津的时间会晚半个多小时，而且到达的火车站也变了，这导致我要多花一大截时间去机场。 然后行程就变成了这样：\nG6290 秦皇岛站 到 天津西站 $08:10$ ~ $09:26$ 天津地铁$6$、$2$号线 天津西站 到 天津滨海国际机场 用时约 $61$ 分钟，大约 $10:30$ 到 $MU2484$ 天津滨海国际机场 到 武汉天河国际机场 $11:00$ ~ $13:15$ 最可怕的其实是，虽然我能线上值机，但是我没法线上托运行李。而行李托运的时间只到 $10:15$ ，按照导航，这是一个有死无生的局面。 在高铁上发现这一点后一声冷汗，因为我不能接受不托运行李。我的行李箱里堆满了换洗的衣服和书本，而我的包显然塞不了那么多……\n打电话分别与家里、天津机场和东方航空联系。家里当时已经在劝说不要去机场了，直接改签高铁……\nAI说你毫无生机？我不信邪！\r和机场沟通后，得知 $10:15$ 后仍有很短的时间，可以在主任柜台托运行李，而这多出来的几分钟也成为了最后的救命稻草。\n感谢不知名的某位高铁司机，高铁提前 $2$ 分钟就到达了天津西站。下车 …","date": "2025-05-09 20:00:00",
+    "updated": "2025-05-09 20:00:00"
   }, 
   {
     "objectID": "1654776772",
     "permalink": "/post/main/",
     "title": "Markdown Basic Elements","content": "\rMarkdown 基本元素\r标题\rH1\rH2\rH3\rH4\rH5\rH6\r强调\rEmphasis, aka italics, with asterisks or underscores.\nStrong emphasis, aka bold, with asterisks or underscores.\nCombined emphasis with asterisks and underscores.\nStrikethrough uses two tildes. Scratch this.\n列表\rDefinition List (dl)\rOrdered List (ol)\rList Item 1 List Item 2 List Item 3 Unordered List (ul)\rList Item 1 List Item 2 List Item 3 段落\rLorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam …","date": "2022-06-09 20:12:52",
+    "updated": "2022-06-09 20:12:52"
+  }, 
+  {
+    "objectID": "1654776772",
+    "permalink": "/post/test/",
+    "title": "test","content": " I wanna win\n你好吗\n","date": "2022-06-09 20:12:52",
     "updated": "2022-06-09 20:12:52"
   }, 
   {
