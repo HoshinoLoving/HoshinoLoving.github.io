@@ -1,0 +1,884 @@
+<!doctype html>
+<html
+  lang="zh-cn" 
+  data-theme-mode="auto"
+  >
+  <head><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  2025 ICPC 武汉邀请赛游记 | Hoshino
+</title>
+<meta
+  name="description"
+  content="记录了我们第一场邀请赛的经历"
+/><script>
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"https://hoshinoloving.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_0khxww3tj3q9\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="preload"
+    href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  /><link rel="stylesheet" href="/css/loader.min.ac746e154f756f8220326eeb52a719f142ab038be5a8ddf30ea5ef15ef2356ea.css" />
+<meta property="og:type" content="website" />
+  <meta property="og:title" content="2025 ICPC 武汉邀请赛游记 | Hoshino" />
+  <meta
+    property="og:description"
+    content="记录了我们第一场邀请赛的经历"
+  />
+  <meta property="og:url" content="https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/" />
+  <meta
+    property="og:site_name"
+    content="Hoshino的博客"
+  />
+  <meta
+    property="og:image"
+    content="/image/25-ICPC-Wuhan-Invitation/fm.jpg"
+  />
+  <meta property="article:author" content="Hoshino" />
+  <meta property="article:published_time" content="2025-05-09T20:00:00&#43;08:00" />
+  <meta property="article:modified_time" content="2025-05-09T20:00:00&#43;08:00" /><meta property="article:tag" content="2025ICPC" /><meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="/image/25-ICPC-Wuhan-Invitation/fm.jpg" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.2693a2f3e32b6cbf447f3c23c375b8d8cc65f5aee9f2c3d317b3159a81f4f068.css" />
+<link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.11/dist/katex.min.css"
+    integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm&#43;ZU03BU6SQNC66uf4l5&#43;" crossorigin="anonymous"onload="this.onload=null;this.rel='stylesheet'"
+  /><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css"
+    integrity="sha384-4NN3fZ5AokFyHuoihl7A9qWaCt&#43;HsAtOaUsXwJGRb4/SMBtFr2vcNSHR5E8dg0Wk" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+          M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg></div><div class="loading-word">少女祈祷中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script><div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+<div id="lang-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+本文章没有找到对应的语言版本
+</div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav"><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/">首页</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/archives">归档</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/about">关于</a>
+      </span><span class="main-nav-link-wrap">
+        <div class='main-nav-icon icon rotate'>&#xe62b;</div>
+        <a class="main-nav-link" href="/friend">友链</a>
+      </span><a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav"></nav></div>
+<header id="header"><picture></picture>
+    <img  fetchpriority="high" src="/image/25-ICPC-Wuhan-Invitation/fm.jpg" alt="2025 ICPC 武汉邀请赛游记"><div id="header-outer">
+    <div id="header-title"><a href="/" id="logo">
+            <h1 data-aos="slide-up">2025 ICPC 武汉邀请赛游记</h1>
+          </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          
+          class="sidebar-right"  ><aside id="sidebar"><div class="sidebar-wrapper wrap-sticky">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#day---赛前准备">Day -∞ 赛前准备</a></li>
+    <li><a href="#day--1-前往武汉">Day -1 前往武汉</a>
+      <ul>
+        <li><a href="#被出租车偷袭">被出租车偷袭</a></li>
+        <li><a href="#生死时速">生死时速</a></li>
+        <li><a href="#飞向武汉">飞向武汉！</a></li>
+        <li><a href="#湖北省博物馆">湖北省博物馆</a></li>
+        <li><a href="#晚上">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-0-蓝桥杯省赛--热身赛">Day 0 蓝桥杯省赛 &amp; 热身赛</a>
+      <ul>
+        <li><a href="#蓝桥杯">蓝桥杯</a></li>
+        <li><a href="#开幕式">开幕式</a></li>
+        <li><a href="#热身赛">热身赛</a></li>
+        <li><a href="#晚上-1">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-1">Day 1</a>
+      <ul>
+        <li><a href="#早起的闲逛">早起的闲逛</a></li>
+        <li><a href="#正赛">正赛</a></li>
+        <li><a href="#颁奖典礼">颁奖典礼</a></li>
+        <li><a href="#晚上-2">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-2">Day 2</a>
+      <ul>
+        <li><a href="#小插曲">小插曲</a></li>
+        <li><a href="#黄鹤楼">黄鹤楼</a></li>
+        <li><a href="#光谷">光谷</a></li>
+        <li><a href="#返程">返程</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="Hoshino"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Hoshino</div>
+  <div class="sidebar-description">One &amp; Only</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">4</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      2
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">6</div>
+  </div>
+</div>
+<div class="sidebar-social"><div class="icon-bilibili sidebar-social-icon">
+      <a
+        href="https://space.bilibili.com/411599632"
+        itemprop="url"
+        target="_blank"
+        aria-label="bilibili"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div><div class="icon-email sidebar-social-icon">
+      <a
+        href="mailto:moterud011@gmail.com"
+        itemprop="url"
+        target="_blank"
+        aria-label="email"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">首页</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="归档"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">归档</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="关于"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">关于</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/friend"
+        aria-label="友链"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">友链</div>
+    </div></div>
+</div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div>
+
+  <div class="sidebar-widget"></div></aside>
+<section id="main"><article
+  class="h-entry article"
+  itemprop="blogPost"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link"
+    data-aos="zoom-in"
+  >
+    <time datetime="2025-05-09 20:00:00 &#43;0800 CST" itemprop="datePublished"
+      >2025-05-09</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2025-05-09</time
+    >
+  </span>
+</div>
+<div class="article-category"><a
+      class="article-category-link"
+      href="/categories/%e6%b8%b8%e8%ae%b0"
+      data-aos="zoom-in"
+      >游记</a
+    ></div>
+</div>
+    <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><blockquote>
+<p>我知道你 不害怕遗憾 只怕被遗忘<br>
+就算跌落深渊万丈<br>
+也要抬起头 夹缝中仰望<br>
+触碰那驯服夜的光<br>
+要走进黑暗 才能看到光<br>
+才能还原所有真相<br>
+将灰烬里黯淡 瞳孔 再次 点亮</p></blockquote>
+<p>总算有时间把这篇游记写出来了，说实话这一路上很多艰辛，最后总算是不负期待吧。</p>
+<h2 id="day---赛前准备">
+<a class="header-anchor" href="#day---%e8%b5%9b%e5%89%8d%e5%87%86%e5%a4%87"></a>
+Day -∞ 赛前准备
+</h2><p>因为京津冀地区蓝桥杯延期，慎重考虑之后决定两个队友留在学校打完蓝桥杯再走，自己先去武汉准备一下蓝桥杯。<br>
+（但真的要准备吗？其实大概只是不想在运动会被大太阳晒，不过我要是第二天走也很难办，没人参加热身赛，而且到的也会很晚）</p>
+<p>事后证明，得亏提前一天走了去试了一下机器，否则当场会出大问题，不过当场也确实出了问题。</p>
+<h2 id="day--1-前往武汉">
+<a class="header-anchor" href="#day--1-%e5%89%8d%e5%be%80%e6%ad%a6%e6%b1%89"></a>
+Day -1 前往武汉
+</h2><h3 id="被出租车偷袭">
+<a class="header-anchor" href="#%e8%a2%ab%e5%87%ba%e7%a7%9f%e8%bd%a6%e5%81%b7%e8%a2%ad"></a>
+被出租车偷袭
+</h3><p>早上六点半就起床了，六点五十到路边打车，但是不知道发生了什么一直到七点二十才打到车，此时距离我的火车只剩下13分钟，随改签。</p>
+<p>原本的行程：</p>
+<ul>
+<li>G1704 <strong>秦皇岛站</strong> 到 <strong>天津站</strong> $07:33$ ~ $08:53$</li>
+<li>天津地铁$2$号线 <strong>天津站</strong> 到 <strong>天津滨海国际机场</strong> 用时约 $46$ 分钟，大约 $9:40$ 到</li>
+<li>$MU2484$ <strong>天津滨海国际机场</strong> 到 <strong>武汉天河国际机场</strong> $11:00$ ~ $13:15$</li>
+</ul>
+<p>改签完后发现自己的列车到天津的时间会晚半个多小时，而且到达的火车站也变了，这导致我要多花一大截时间去机场。
+然后行程就变成了这样：</p>
+<ul>
+<li>G6290 <strong>秦皇岛站</strong> 到 <strong>天津西站</strong> $08:10$ ~ $09:26$</li>
+<li>天津地铁$6$、$2$号线 <strong>天津西站</strong> 到 <strong>天津滨海国际机场</strong> 用时约 $61$ 分钟，大约 $10:30$ 到</li>
+<li>$MU2484$ <strong>天津滨海国际机场</strong> 到 <strong>武汉天河国际机场</strong> $11:00$ ~ $13:15$</li>
+</ul>
+<p>最可怕的其实是，虽然我能线上值机，但是我没法线上托运行李。而行李托运的时间只到 $10:15$ ，按照导航，这是一个有死无生的局面。 在高铁上发现这一点后一声冷汗，因为我不能接受不托运行李。我的行李箱里堆满了换洗的衣服和书本，而我的包显然塞不了那么多……<br>
+打电话分别与家里、天津机场和东方航空联系。家里当时已经在劝说不要去机场了，直接改签高铁……</p>
+<h3 id="生死时速">
+<a class="header-anchor" href="#%e7%94%9f%e6%ad%bb%e6%97%b6%e9%80%9f"></a>
+生死时速
+</h3><p>和机场沟通后，得知 $10:15$ 后仍有很短的时间，可以在主任柜台托运行李，而这多出来的几分钟也成为了最后的救命稻草。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/1.png" alt="聊天记录"></p>
+<p>感谢不知名的某位高铁司机，高铁提前 $2$ 分钟就到达了天津西站。下车后立刻拖着厚重的箱子飞奔（事后机场称重，实际重量为 $17$ 公斤），最终拼尽全力挤上了$6$号线的列车。<br>
+换乘的路上甚至有一段楼梯，也顾不了那么多，直接提起箱子飞速下楼梯，最终到达$2$号线的屏蔽门时，下一班列车还有$2$分钟才到。走到这里，打开手机一看，地图预计到达时间大概是$10:23$（还有上楼）。已经很好了，但是还不是很够。
+大约$10:10$，地铁到达<strong>天津滨海国际机场站</strong>，然而下飞机后还要跑啊跑啊跑啊跑，跑了一大截才到$T2$航站楼那三个“连排的电梯”，遂立刻上三楼。然后直奔$H10$主任柜台，前面没有人排队，立刻给身份证要求托运。一看时间 $10:14$，竟然在最后一刻赶上了正常值机。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/2.jpg" alt="滨海机场"></p>
+<h3 id="飞向武汉">
+<a class="header-anchor" href="#%e9%a3%9e%e5%90%91%e6%ad%a6%e6%b1%89"></a>
+飞向武汉！
+</h3><p><img src="/image/25-ICPC-Wuhan-Invitation/3.jpg" alt="飞机"></p>
+<p>很旧的飞机，但是非常的漂亮，整体旅行体验还是不错的，飞机餐比较像黄焖鸡。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/4.jpg" alt="天河机场"></p>
+<p>下午一点半准时到武汉天河国际机场！拿好行李，准备开始参观武汉！<br>
+（$Upd$：后来群里在测试$Ai$，就把上图给了$Ai$，然后$Ai$猜是深圳宝安国际机场，只能说：<strong>菜就多练</strong>！）</p>
+<h3 id="湖北省博物馆">
+<a class="header-anchor" href="#%e6%b9%96%e5%8c%97%e7%9c%81%e5%8d%9a%e7%89%a9%e9%a6%86"></a>
+湖北省博物馆
+</h3><p>三点钟，来到了湖北省博物馆。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/5.jpg" alt="湖北省博物馆"></p>
+<p>然后就是看镇馆之宝了：<strong>曾侯乙编钟</strong> 和 <strong>越王勾践剑</strong> 。很有趣，参观后者展馆还要排队。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/6.jpg" alt="曾侯乙编钟"></p>
+<h3 id="晚上">
+<a class="header-anchor" href="#%e6%99%9a%e4%b8%8a"></a>
+晚上
+</h3><p>和很久没见的好友见面，品尝了一顿美味的湖北菜。好吃！<br>
+吃完饭后买上两杯茶颜悦色，然后直奔网安基地。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/7.jpg" alt="茶颜悦色"></p>
+<h2 id="day-0-蓝桥杯省赛--热身赛">
+<a class="header-anchor" href="#day-0-%e8%93%9d%e6%a1%a5%e6%9d%af%e7%9c%81%e8%b5%9b--%e7%83%ad%e8%ba%ab%e8%b5%9b"></a>
+Day 0 蓝桥杯省赛 &amp; 热身赛
+</h2><h3 id="蓝桥杯">
+<a class="header-anchor" href="#%e8%93%9d%e6%a1%a5%e6%9d%af"></a>
+蓝桥杯
+</h3><p>其实没啥好提的，为了赶开幕式和热身赛，提前两小时交卷了，结果险些翻车了，$A$ 组省一末位。</p>
+<h3 id="开幕式">
+<a class="header-anchor" href="#%e5%bc%80%e5%b9%95%e5%bc%8f"></a>
+开幕式
+</h3><p>午饭是在 $Hust$ 网安校区吃的，那边食堂的大小其实和校六差不多（但是是两层的校六，$Neuq$ 管管你的食堂吧）<br>
+午饭吃的是牛肉担担面，十二块一碗，味道还真不错。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/8.jpg" alt="牛肉担担面"></p>
+<p>休息一会，就准备去图书馆报告厅了。但是我比较蠢，一直在图书馆一楼来回找，而我又不是本校学生进不去，于是在门口逗留了大半天，最后总算是跟着志愿者找到了礼堂。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/9.jpg" alt="开幕式"></p>
+<p>总算见到杨治哥哥真人了（大雾</p>
+<h3 id="热身赛">
+<a class="header-anchor" href="#%e7%83%ad%e8%ba%ab%e8%b5%9b"></a>
+热身赛
+</h3><p><img src="/image/25-ICPC-Wuhan-Invitation/8-5.jpg" alt="队名"></p>
+<p>开题一看，怎么全是去年昆明邀请赛原题啊（ <br>
+一个人研究编译器研究了半天，最后琢磨出一套方法，然后开始写代码。很快的做完了 $A$ 题和 $B$ 题，$D$ 题见过 $Solution$ 了觉得很难决定跳过，于是花了一大截时间去试着写最薄弱的计算几何 $C$ 。<br>
+写完一个版本，交上去一看 $Wa$ 了，然后发现自己那个写法根本就处理不了线在两边的情况，于是直接下机，给队友录视频。</p>
+<h3 id="晚上-1">
+<a class="header-anchor" href="#%e6%99%9a%e4%b8%8a-1"></a>
+晚上
+</h3><p>哇，这也是我 $349$ 能住上的双人间吗（</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/11.jpg" alt="酒店"></p>
+<p>先把包放下来，然后决定打车回原来的酒店拿行李，然后顺便体验一把自动驾驶（其实我好像去年就体验过了，但是那个视频在 $QQ$ 小视频上面，而现在我已经找不到 $QQ$ 小视频了，超级差评😅）</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/10.jpg" alt="自动驾驶"></p>
+<p>然后洗了个澡，打开电视享受超级大屏（下文有彩蛋），等待两个队友来。队友来了聊了一会，大家就各自去睡了😴</p>
+<h4 id="我是德克萨斯的狗">
+<a class="header-anchor" href="#%e6%88%91%e6%98%af%e5%be%b7%e5%85%8b%e8%90%a8%e6%96%af%e7%9a%84%e7%8b%97"></a>
+<del>我是德克萨斯的狗！！！</del>
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/12.jpg" alt="狗"></p>
+<h4 id="深海猎人血脉相连">
+<a class="header-anchor" href="#%e6%b7%b1%e6%b5%b7%e7%8c%8e%e4%ba%ba%e8%a1%80%e8%84%89%e7%9b%b8%e8%bf%9e"></a>
+深海猎人，血脉相连！
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/13.jpg" alt="猎人"></p>
+<p>（PS：感觉可以做个转场）</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/13-5.png" alt="猎人"></p>
+<h2 id="day-1">
+<a class="header-anchor" href="#day-1"></a>
+Day 1
+</h2><h3 id="早起的闲逛">
+<a class="header-anchor" href="#%e6%97%a9%e8%b5%b7%e7%9a%84%e9%97%b2%e9%80%9b"></a>
+早起的闲逛
+</h3><p>先在酒店里面吃了一顿自助餐，但我严重质疑那个葡萄汁是不是浓缩液忘加水了，<strong>齁甜！！！！！！</strong></p>
+<blockquote>
+<p>因为时间还算早所以跟队友简单逛了逛网安基地，感叹这才是真正的大学啊，走廊跟酒店一样<br>
+——yky</p></blockquote>
+<p>这话说得真对，甚至感觉 $Hust$ 的走廊比我们有些教室都宽了，而且还有沙发（但图里没有）</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/14.jpg" alt="走廊"></p>
+<h3 id="正赛">
+<a class="header-anchor" href="#%e6%ad%a3%e8%b5%9b"></a>
+正赛
+</h3><h4 id="a">
+<a class="header-anchor" href="#a"></a>
+$A$
+</h4><p>一人一本题，印象中我拿了一本英语版的。因为上次昆明邀请赛也是 $A$ 签到，所以就从 $A$ 开始开题。然后果然发现 $A$ 是个签到题，于是直接上机开写，写的很快。 <br>
+写完 A 之后，却发现找不到文件保存在哪里了而没法交（$Oj$不支持复制粘贴），于是干脆在桌面新建了一个 $a.cpp$，每次交题都把代码粘贴到这个文件里交上去。虽然挺滑稽的，但是真的挺有效的） <br>
+（$Upd$：$Hbcpc$就不会有这个问题了，因为是 Windows ，且有 Dev-C++ 😅）</p>
+<h4 id="i">
+<a class="header-anchor" href="#i"></a>
+$I$
+</h4><p>开完之后 $yky$ 上机写一个次签到的 $I$ ，我边看边提醒他一些细节，但最后还是挂了一发。<br>
+回头仔细审题，发现好像不止对于 $k$ 的下界有要求，也对上界有要求。提醒 $yky$ 之后很快就过了。</p>
+<h4 id="l">
+<a class="header-anchor" href="#l"></a>
+$L$
+</h4><p>粗略瞟了一眼英文版题面发现没太看懂，然后要来中文版题面看了一下，但是当时蠢得没注意数据范围，然后自己卡住了。<br>
+看 $cyc$ 写的很顺畅，就没想着去打扰，然后选择另开。于是就很快的也过了。</p>
+<h4 id="h">
+<a class="header-anchor" href="#h"></a>
+$H$
+</h4><p>做了一个<del>很蠢</del>的推理：比如答案是 $20$，然后我应该能找到某个数，使得他周边的数都和 $2$ 到 $41$ 中任意一个数的 $Gcd&gt;1$ ，然后就可以通过这样直接构造一个数符合所有答案。<br>
+很显然这个结论很蠢，但当时想试试，先拿 C++ 写，但是发现好像找不到，于是请求会 Python 的队友写个高精版的，结果我们赛前热身赛没有测试 Python 的环境，正赛中根本就没用起来🤣<br>
+于是随便猜了两发，然后<del>耻辱</del>下机。</p>
+<h4 id="f">
+<a class="header-anchor" href="#f"></a>
+$F$
+</h4><p>跟榜发现过 $F$ 的很多，然后就开了。很显然不是一个背包，然后结合是 $2$ 的次方，$yky$ 想到大概是一个贪心。表示赞同后 $yky$ 直接上机开写，一发过了。</p>
+<h4 id="m">
+<a class="header-anchor" href="#m"></a>
+$M$
+</h4><p>吃了数学不好的亏，高考数学 $117$ 的梦魇还在继续😭</p>
+<h4 id="g">
+<a class="header-anchor" href="#g"></a>
+$G$
+</h4><p>块很少的我会做，块很多的 $cyc$ 会做（但是没写完），结果硬是没想到凑一块去，然后就无了</p>
+<h4 id="午饭">
+<a class="header-anchor" href="#%e5%8d%88%e9%a5%ad"></a>
+午饭
+</h4><p>唯一的吐槽点，这个汉堡和炸鸡是真的不好吃）<br>
+但是发了可乐！</p>
+<h3 id="颁奖典礼">
+<a class="header-anchor" href="#%e9%a2%81%e5%a5%96%e5%85%b8%e7%a4%bc"></a>
+颁奖典礼
+</h3><p>最终还是我去领奖的，好像合影的时候还站在了一个C位。<br>
+最终也不意外，大概在银奖中间，大抵是我们前面前的快后面一直没过题吧。 <br>
+赛后发现，好像如果真的写出了 $M$ 和 $G$ ，好像能金尾，可惜没有如果。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/15.jpg" alt="榜"></p>
+<p>好大一块牌子啊，不过也算是圆梦了。</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/16.jpg" alt="银奖"></p>
+<h3 id="晚上-2">
+<a class="header-anchor" href="#%e6%99%9a%e4%b8%8a-2"></a>
+晚上
+</h3><p>打完之后火速转移到江汉路开始旅游环节了。先吃海底捞，再来杯茶颜悦色！</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/17.jpg" alt="旅游1"></p>
+<p>吃完海底捞，看到一家很豪华的<strong>中国黄金</strong>，赢了一支金玫瑰，好看捏</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/18.jpg" alt="旅游2"></p>
+<p>结果手机没电了，然后就被迫寄宿在另两个同伴的手机上，然后顺便玩怪谈🤪<br>
+说起来也好玩，酒店藏在女装店里面，进去之前得先经过一排排女装😕</p>
+<h2 id="day-2">
+<a class="header-anchor" href="#day-2"></a>
+Day 2
+</h2><h3 id="小插曲">
+<a class="header-anchor" href="#%e5%b0%8f%e6%8f%92%e6%9b%b2"></a>
+小插曲
+</h3><p>得知惊人的消息：$Acm$俱乐部被解散了。于是即兴发了一条说说：</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/18-5.jpg" alt="解散"></p>
+<h3 id="黄鹤楼">
+<a class="header-anchor" href="#%e9%bb%84%e9%b9%a4%e6%a5%bc"></a>
+黄鹤楼
+</h3><p>起来很晚，然后发现自己的 $C919$ 被改成了 $737-800$ ，于是干脆想着改签，却发现改签费太高而放弃。 <br>
+然后坐了一会地铁去看黄鹤楼。好多年没去黄鹤楼，甚至是武汉了，上次去好像还是 $2018$ 年的事情了。登楼眺望的景色是真的好。至于黄鹤楼本体，不如看央视的图了🤪</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/20.png" alt="黄鹤楼"></p>
+<p>登楼眺望拍了几张照（</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/21.jpg" alt="江山入画"></p>
+<h3 id="光谷">
+<a class="header-anchor" href="#%e5%85%89%e8%b0%b7"></a>
+光谷
+</h3><p>没时间细细的逛了，下黄鹤楼后直奔光谷，体验了一下“<strong>武汉光谷空轨旅游线</strong>”，大致是这么个样子：</p>
+<p><img src="/image/25-ICPC-Wuhan-Invitation/22.jpg" alt="光谷空轨"></p>
+<p>去完光谷，闪现崩铁快闪，不过那个青年教堂怎么是华为旗舰店🤔然后飞速的去华为店里面充了会电，顺带着去贴了个膜）</p>
+<h4 id="卖家秀">
+<a class="header-anchor" href="#%e5%8d%96%e5%ae%b6%e7%a7%80"></a>
+卖家秀：
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/23.png" alt="崩铁1"></p>
+<h4 id="买家秀">
+<a class="header-anchor" href="#%e4%b9%b0%e5%ae%b6%e7%a7%80"></a>
+买家秀：
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/24.jpg" alt="崩铁2"></p>
+<h3 id="返程">
+<a class="header-anchor" href="#%e8%bf%94%e7%a8%8b"></a>
+返程
+</h3><p>匆匆的吃了一顿西餐，很快就到了和队友分别的时间。似乎是很快速的告别了，然后就立刻启程赶往地铁站。可惜了，在 $Hust$ 的网安校区比了赛，但没有时间去看一看主校区了。不得不感慨，一个校区都这么大吗）  <br>
+然后就是熟悉的上地铁，到机场，托运行李，过安检，上飞机，飞往北京了。</p>
+<h4 id="最后的回眸">
+<a class="header-anchor" href="#%e6%9c%80%e5%90%8e%e7%9a%84%e5%9b%9e%e7%9c%b8"></a>
+最后的回眸
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/25.jpg" alt="回眸"></p>
+<p><strong>再见，武汉！</strong></p>
+<h4 id="北京大兴">
+<a class="header-anchor" href="#%e5%8c%97%e4%ba%ac%e5%a4%a7%e5%85%b4"></a>
+北京大兴
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/26.jpg" alt="大兴"></p>
+<h4 id="北京繁忙的夜晚">
+<a class="header-anchor" href="#%e5%8c%97%e4%ba%ac%e7%b9%81%e5%bf%99%e7%9a%84%e5%a4%9c%e6%99%9a"></a>
+北京繁忙的夜晚
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/27.jpg" alt="北京"></p>
+<h4 id="通宵北京站">
+<a class="header-anchor" href="#%e9%80%9a%e5%ae%b5%e5%8c%97%e4%ba%ac%e7%ab%99"></a>
+通宵北京站
+</h4><p><img src="/image/25-ICPC-Wuhan-Invitation/28.jpg" alt="北京站"></p>
+<p>在北京站过夜了一晚上，然后搭乘第二天一早的高铁回秦皇岛继续上课😭</p>
+<hr>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><blockquote>
+<p>这一路危机多过意外<br>
+但星辰唾手可摘<br>
+在抵达之前选择<br>
+推翻结局将它更改</p>
+<p>把星球当作沿途站台<br>
+去开拓一个时代<br>
+看即便手中再小的火花<br>
+也终将<br>
+点亮星海</p></blockquote>
+<p>我个人这一次赛前的赛训做的其实不是很足，其实缺乏了一部分内容的训练，回去狠狠加训！（<del>然而写这篇稿子的时候已经回去多久了）</del></p>
+<p>赛前的热身试机也能做得更好吧，这一次也给我们积累了更多的经验。</p>
+<p>$2025$ $Hbcpc$，东北大学秦皇岛分校，$See$ $you$ $here$！</p>
+</div>
+    <footer class="article-footer"><div class="share-wrapper"><a href="https://service.weibo.com/share/share.php?url=https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/&amp;appkey=&amp;title=2025%20ICPC%20%e6%ad%a6%e6%b1%89%e9%82%80%e8%af%b7%e8%b5%9b%e6%b8%b8%e8%ae%b0&amp;pic=&amp;ralateUid=" target="_blank" rel="noopener noreferrer" title="2025 ICPC 武汉邀请赛游记">
+      <div class="share-icon icon icon-weibo"></div>
+    </a><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://hoshinoloving.github.io/post/25-icpc-wuhan-invitational/&amp;title=2025%20ICPC%20%e6%ad%a6%e6%b1%89%e9%82%80%e8%af%b7%e8%b5%9b%e6%b8%b8%e8%ae%b0&amp;desc=%e8%ae%b0%e5%bd%95%e4%ba%86%e6%88%91%e4%bb%ac%e7%ac%ac%e4%b8%80%e5%9c%ba%e9%82%80%e8%af%b7%e8%b5%9b%e7%9a%84%e7%bb%8f%e5%8e%86&amp;source=https://hoshinoloving.github.io/" target="_blank" rel="noopener noreferrer" title="2025 ICPC 武汉邀请赛游记">
+      <div class="share-icon icon icon-qq"></div>
+    </a><a href="javascript:;"  title="2025 ICPC 武汉邀请赛游记">
+      <div class="share-icon icon icon-weixin"><div id="share-weixin">
+            <div class="share-weixin-dom">
+              <div class="share-weixin-content">
+                <img id="share-weixin-banner"> 
+                <div id="share-weixin-title"></div>
+                <div id="share-weixin-desc"></div>
+              </div>
+              <div class="share-weixin-qrcode">
+                <div class="share-weixin-info">
+                  <div id="share-weixin-author"></div>
+                  <div id="share-weixin-theme">Powered By hugo-theme-reimu</div>
+                </div>
+                <img id="share-weixin-qr" >
+              </div>
+            </div>
+            <div class="share-weixin-canvas"></div>
+          </div></div>
+    </a></div><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/2025"
+        rel="tag"
+        >2025</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/icpc"
+        rel="tag"
+        >ICPC</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap article-nav-link-left"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="Markdown Basic Elements"
+              class="lazyload"
+            /><a href="/post/main/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">Markdown Basic Elements</h3>
+      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+            data-src="/image/COA8/fm.jpg"
+            data-sizes="auto"
+            alt="2025 深渊的呼唤Ⅷ 全球总决赛游记"
+            class="lazyload"
+          /><a href="/post/25-coa8-finals/"></a>
+        <div class="article-nav-caption">后一篇</div>
+        <h3 class="article-nav-title">2025 深渊的呼唤Ⅷ 全球总决赛游记</h3>
+      </div></nav></article></section>
+        </div><footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div>
+      <span class="icon-copyright"></span>2025<span class="footer-info-sep rotate"></span>
+      Hoshino
+    </div><div>
+        基于&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          >Hugo</a
+        >&nbsp; Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;5.4k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;00:14</span>
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >总访问量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >总访客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#day---赛前准备">Day -∞ 赛前准备</a></li>
+    <li><a href="#day--1-前往武汉">Day -1 前往武汉</a>
+      <ul>
+        <li><a href="#被出租车偷袭">被出租车偷袭</a></li>
+        <li><a href="#生死时速">生死时速</a></li>
+        <li><a href="#飞向武汉">飞向武汉！</a></li>
+        <li><a href="#湖北省博物馆">湖北省博物馆</a></li>
+        <li><a href="#晚上">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-0-蓝桥杯省赛--热身赛">Day 0 蓝桥杯省赛 &amp; 热身赛</a>
+      <ul>
+        <li><a href="#蓝桥杯">蓝桥杯</a></li>
+        <li><a href="#开幕式">开幕式</a></li>
+        <li><a href="#热身赛">热身赛</a></li>
+        <li><a href="#晚上-1">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-1">Day 1</a>
+      <ul>
+        <li><a href="#早起的闲逛">早起的闲逛</a></li>
+        <li><a href="#正赛">正赛</a></li>
+        <li><a href="#颁奖典礼">颁奖典礼</a></li>
+        <li><a href="#晚上-2">晚上</a></li>
+      </ul>
+    </li>
+    <li><a href="#day-2">Day 2</a>
+      <ul>
+        <li><a href="#小插曲">小插曲</a></li>
+        <li><a href="#黄鹤楼">黄鹤楼</a></li>
+        <li><a href="#光谷">光谷</a></li>
+        <li><a href="#返程">返程</a></li>
+      </ul>
+    </li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+  </div>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.webp"
+    data-sizes="auto"
+    alt="Hoshino"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Hoshino</div>
+  <div class="sidebar-description">One &amp; Only</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">4</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">
+      2
+    </div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">6</div>
+  </div>
+</div>
+<div class="sidebar-social"><div class="icon-bilibili sidebar-social-icon">
+      <a
+        href="https://space.bilibili.com/411599632"
+        itemprop="url"
+        target="_blank"
+        aria-label="bilibili"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div><div class="icon-email sidebar-social-icon">
+      <a
+        href="mailto:moterud011@gmail.com"
+        itemprop="url"
+        target="_blank"
+        aria-label="email"
+        rel="noopener external nofollow noreferrer"
+      ></a>
+    </div></div>
+<div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/"
+        aria-label="首页"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">首页</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/archives"
+        aria-label="归档"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">归档</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/about"
+        aria-label="关于"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">关于</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/friend"
+        aria-label="友链"
+      ></a>
+      <div class='sidebar-menu-icon icon rotate'>&#xe62b;</div>
+      <div class="sidebar-menu-link">友链</div>
+    </div></div>
+</div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" integrity="" crossorigin="anonymous" ></script><script src="/js/aos.js" integrity="" crossorigin="anonymous" ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax></script><script
+    src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js"
+    integrity="sha384-8LyaidD9GPxQQgLJO/WRw/O2h3BoNq/ApI/ecpvM6RsrCz2qP2ppBXUKihP4V/2d" crossorigin="anonymous"></script><script>
+  if (window.firework) {
+    const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+    options.excludeElements = options.excludeelements;
+    delete options.excludeelements;
+    window.firework(options);
+  }
+</script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "Hoshino",
+          title: "2025 ICPC 武汉邀请赛游记",
+          url: "https:\/\/hoshinoloving.github.io\/post\/25-icpc-wuhan-invitational\/",
+          description: "记录了我们第一场邀请赛的经历",
+          cover: "https:\/\/hoshinoloving.github.io\/image\/25-ICPC-Wuhan-Invitation\/fm.jpg",
+        };
+      </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script><script
+    src="https://npm.webcache.cn/qrcode@1.4.4/build/qrcode.min.js"
+    deferdata-pjaxintegrity="sha384-0RsG1yo/crf/1Qc14sho26SXXOTngNCjgJw7fuvXBt9W/OChF/Ijx&#43;aUuBDqQwEk" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/html-to-image@1.11.11/dist/html-to-image.js"
+    deferdata-pjaxintegrity="sha384-UbfRVKN3/elS1r7JcK2FhmPP&#43;KlJ4CvYwbyYD7tH&#43;uTkbT9bNJr9eJeQ0FoFbAgz" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/katex@0.16.9/dist/katex.min.js"
+    data-pjaxintegrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/katex@0.16.9/dist/contrib/auto-render.min.js"
+    data-pjaxintegrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05" crossorigin="anonymous"></script><script data-pjax>
+          var renderMath = () => {
+            if (!window.renderMathInElement) return;
+            window.renderMathInElement(_$("article"), {
+              delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "\\[", right: "\\]", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+              ],
+            });
+          };
+          if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", renderMath, { once: true });
+          } else {
+            renderMath();
+          }
+        </script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    asyncintegrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script></body>
+</html>
