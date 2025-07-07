@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COA8 on Hoshino的博客</title>
-    <link>https://hoshinoloving.github.io/tags/coa8/</link>
+    <link>http://localhost:1313/tags/coa8/</link>
     <description>Recent content from Hoshino的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 13 May 2025 20:00:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://hoshinoloving.github.io/tags/coa8/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/tags/coa8/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>2025 深渊的呼唤Ⅷ 全球总决赛游记</title>
-      <link>https://hoshinoloving.github.io/post/25-coa8-finals/</link>
+      <link>http://localhost:1313/post/25-coa8-finals/</link>
       <pubDate>Tue, 13 May 2025 20:00:00 &#43;0800</pubDate>
       <author>moterud011@gmail.com (Hoshino)</author>
-      <guid>https://hoshinoloving.github.io/post/25-coa8-finals/</guid>
+      <guid>http://localhost:1313/post/25-coa8-finals/</guid>
       <description>
         <![CDATA[<h1>2025 深渊的呼唤Ⅷ 全球总决赛游记</h1><p>作者：Hoshino（moterud011@gmail.com）</p>
         
@@ -42,9 +42,10 @@
 <h2 id="很久以前">
 <a class="header-anchor" href="#%e5%be%88%e4%b9%85%e4%bb%a5%e5%89%8d"></a>
 很久以前
-</h2><p>秋季赛打完之后就萌生了去看总决赛的念头吧，家离杭州近的好处就体现出来了，五一假期可以先回家</p>
+</h2><p>秋季赛打完之后就萌生了去看总决赛的念头吧，家离杭州近的好处就体现出来了，五一假期可以先回家，然后从家去杭州很近了。<br>
+于是很久之前就开始做攻略了，又是查场馆座位图又是收集座位视角，最后综合价格决定了一个正视屏幕的位置（也就是监管那边）</p>
         
-        <hr><p>本文2025-05-13首发于<a href='https://hoshinoloving.github.io/'>Hoshino的博客</a>，最后修改于2025-05-13</p>]]>
+        <hr><p>本文2025-05-13首发于<a href='http://localhost:1313/'>Hoshino的博客</a>，最后修改于2025-05-13</p>]]>
       </description>
       
         <category>游记</category>
